@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(197, 194, 194);
+}
+nav{
+    padding: 0 !important; 
+    margin: 10px;
+    border-bottom: 1px solid black;
+}
+.item{
+    margin-right: 35px !important;
+    font-weight: 470 !important;
+}
+#main{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px; 
+    margin: 100px 0px;
+}
+.heading{
+    font-family: 'Times New Roman', Times, serif;
+}
+.sections{
+    padding: 20px 20px;
+}
+.img-cover{
+    object-fit: cover;
+    object-position: center;
+}
+.book-head{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+}
+.book-head p{
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 20px;
+    margin: 0 100px;
+}
+.table-section{
+    display: flex; 
+    justify-content: center; 
+    flex-direction: column; 
+    align-items: center;
+}
+table{
+    max-width: 400px;
+}
+.star-rating {
+    color: #ffd700;
+    cursor: pointer;
+    background:none !important;
+}
+.star-rating .fa-star {
+    font-size: 1.5rem;
+    background:none !important;
+}
+td a{
+    background:none !important;
+}
+.about-section {
+    padding: 60px 0;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.about-header {
+    --font-heading-family: Nunito, sans-serif;
+    --font-heading-style: normal;
+    --font-heading-weight: 400;
+    --font-heading-scale: 1;
+    margin-bottom: 40px;
+    font-family: var(--font-heading-family);
+    font-style: var(--font-heading-style);
+    font-weight: var(--font-heading-weight);
+    letter-spacing: calc(var(--font-heading-scale) * .06rem);
+    line-height: calc(1 + .3/max(1,var(--font-heading-scale)));
+    word-break: break-word;
+}
+.about-content {
+    margin-top: 20px;
+}
+.about-content p{
+    --font-body-family: Assistant, sans-serif;
+    --font-body-style: normal;
+    --font-body-weight: 400;
+    font-size: 1.2rem;
+    letter-spacing: 0.06rem;
+    line-height: calc(1 + 0.8 / var(--font-body-scale));
+    font-family: var(--font-body-family);
+    font-style: var(--font-body-style);
+    font-weight: var(--font-body-weight);
+}
+footer{
+    border-top: 1px solid black;
+}
+#follow{
+    margin-right: 10px;
+}
